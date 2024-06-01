@@ -8,6 +8,8 @@ SECRET_KEY = 'django-insecure-2b$2d$i@n%px&-t3*33y428pkd++f4=!(cbucq7*^rc=ad6vtp
 
 DEBUG = True
 
+ADMIN_URL = 'rdv/admin/'
+
 ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']
